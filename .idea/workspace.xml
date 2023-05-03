@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="feat : Sort">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/바둑이_승차/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/바둑이_승차/바둑이_승차_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/합이_같은_부분집합/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/합이_같은_부분집합/합이_같은_부분집합_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/explanation/search/bfs/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/explanation/search/dfs/DFS_Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/explanation/search/dfs/DFS_재귀함수.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/explanation/search/dfs/연결요소의개수구하기/Solution.java" afterDir="false" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment=":art: 알고리즘+알고리즘 풀이 통합">
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/최대점수구하기/ReadMe/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/최대점수구하기/ReadMe/최대점수구하기_Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/sort/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/StraightSelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/sort/StraightSelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/heap/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/heap/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/stack/stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,42 +36,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/harimhwang/Desktop/algorithm&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/harimhwang/Desktop/algorithm/src/algorithmTest/programmers",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.바둑이_승차_Solution$Main">
-    <configuration name="DFS_재귀함수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="explanation.search.dfs.DFS_재귀함수" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="explanation.search.dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/algorithmTest/programmers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.최대점수구하기_Solution$Main">
     <configuration name="DFS_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="explanation.search.dfs.DFS_Stack" />
       <module name="algorithm" />
@@ -106,6 +83,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="explanation.search.dfs.연결요소의개수구하기.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="최대점수구하기_Solution$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.inflearn.dfs.최대점수구하기.ReadMe.최대점수구하기_Solution$Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.inflearn.dfs.최대점수구하기.ReadMe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.최대점수구하기_Solution$Main" />
         <item itemvalue="Application.바둑이_승차_Solution$Main" />
         <item itemvalue="Application.합이_같은_부분집합_Solution$Main" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.DFS_Stack" />
-        <item itemvalue="Application.DFS_재귀함수" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +161,7 @@
       <workItem from="1682441932603" duration="5000" />
       <workItem from="1682674833647" duration="61000" />
       <workItem from="1683014554158" duration="8513000" />
-      <workItem from="1683087134877" duration="9223000" />
+      <workItem from="1683087134877" duration="11085000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Heap 정렬">
       <created>1675495464502</created>
@@ -208,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676951797748</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=":art: 알고리즘+알고리즘 풀이 통합">
+      <created>1683097742810</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683097742810</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +227,7 @@
     <MESSAGE value="feat : Heap 정렬" />
     <MESSAGE value="feat : stack" />
     <MESSAGE value="feat : Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : Sort" />
+    <MESSAGE value=":art: 알고리즘+알고리즘 풀이 통합" />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: 알고리즘+알고리즘 풀이 통합" />
   </component>
 </project>
