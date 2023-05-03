@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="feat : stack">
-      <change afterPath="$PROJECT_DIR$/src/Sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/StraightSelectionSort.java" afterDir="false" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="feat : Sort">
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/바둑이_승차/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/바둑이_승차/바둑이_승차_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/합이_같은_부분집합/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/합이_같은_부분집합/합이_같은_부분집합_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/explanation/search/bfs/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/explanation/search/dfs/DFS_Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/explanation/search/dfs/DFS_재귀함수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/explanation/search/dfs/연결요소의개수구하기/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/heap/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/sort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/StraightSelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/sort/StraightSelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/heap/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/stack/stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +56,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/harimhwang/Desktop/algorithm&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,13 +73,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.ShellSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.BubbleSort" />
+  <component name="RunManager" selected="Application.바둑이_승차_Solution$Main">
+    <configuration name="DFS_재귀함수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="explanation.search.dfs.DFS_재귀함수" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="explanation.search.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.HeapSort" />
+    <configuration name="DFS_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="explanation.search.dfs.DFS_Stack" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heap.*" />
+          <option name="PATTERN" value="explanation.search.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.ShellSort" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="explanation.search.dfs.연결요소의개수구하기.Solution" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="explanation.search.dfs.연결요소의개수구하기.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StraightSelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.StraightSelectionSort" />
+    <configuration name="바둑이_승차_Solution$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.inflearn.dfs.바둑이_승차.바둑이_승차_Solution$Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="algorithmTest.inflearn.dfs.바둑이_승차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="합이_같은_부분집합_Solution$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.inflearn.dfs.합이_같은_부분집합.합이_같은_부분집합_Solution$Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.inflearn.dfs.합이_같은_부분집합.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,10 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.StraightSelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.바둑이_승차_Solution$Main" />
+        <item itemvalue="Application.합이_같은_부분집합_Solution$Main" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.DFS_Stack" />
+        <item itemvalue="Application.DFS_재귀함수" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +163,15 @@
       <workItem from="1675578916691" duration="2577000" />
       <workItem from="1676874259542" duration="8250000" />
       <workItem from="1676895837867" duration="223000" />
-      <workItem from="1676944912266" duration="2217000" />
+      <workItem from="1676944912266" duration="2856000" />
+      <workItem from="1676970315137" duration="4764000" />
+      <workItem from="1676984300906" duration="809000" />
+      <workItem from="1677039768879" duration="18000" />
+      <workItem from="1677044329912" duration="7184000" />
+      <workItem from="1682441932603" duration="5000" />
+      <workItem from="1682674833647" duration="61000" />
+      <workItem from="1683014554158" duration="8513000" />
+      <workItem from="1683087134877" duration="9223000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Heap 정렬">
       <created>1675495464502</created>
@@ -167,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675580890388</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat : Sort">
+      <created>1676951797748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676951797748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +229,7 @@
     <MESSAGE value="feat : setting" />
     <MESSAGE value="feat : Heap 정렬" />
     <MESSAGE value="feat : stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : stack" />
+    <MESSAGE value="feat : Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : Sort" />
   </component>
 </project>
