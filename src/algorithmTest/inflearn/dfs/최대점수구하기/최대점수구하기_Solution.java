@@ -1,4 +1,4 @@
-package algorithmTest.inflearn.dfs.최대점수구하기.ReadMe;
+package algorithmTest.inflearn.dfs.최대점수구하기;
 
 import java.io.*;
 
