@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment=":art: 알고리즘+알고리즘 풀이 통합">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/최대점수구하기/ReadMe/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/최대점수구하기/ReadMe/최대점수구하기_Solution.java" afterDir="false" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="Add: 프로그래머스 문제 추가">
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/깊이우선탐색/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/바이러스/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/연결요소의개수/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/타켓넘버/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_3/단어_변환/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -36,40 +40,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/harimhwang/Desktop/algorithm/src/algorithmTest/programmers",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/harimhwang/Desktop/algorithm/src/algorithmTest/programmers/LV_2/요격시스템&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/요격시스템" />
       <recent name="$PROJECT_DIR$/src/algorithmTest/programmers" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/explanation/graph" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.최대점수구하기_Solution$Main">
-    <configuration name="DFS_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="explanation.search.dfs.DFS_Stack" />
+  <component name="RunManager" selected="Application.algorithmTest.baekjoon.깊이우선탐색.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.바이러스.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="explanation.search.dfs.*" />
+          <option name="PATTERN" value="algorithmTest.baekjoon.바이러스.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="explanation.search.dfs.연결요소의개수구하기.Solution" />
+    <configuration name="중복순열_Solution$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.inflearn.dfs.중복순열.중복순열_Solution$Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="explanation.search.dfs.연결요소의개수구하기.*" />
+          <option name="PATTERN" value="algorithmTest.inflearn.dfs.중복순열.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="최대점수구하기_Solution$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.inflearn.dfs.최대점수구하기.ReadMe.최대점수구하기_Solution$Main" />
+    <configuration name="동전문제_Solution$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.inflearn.dfs.동전교환.동전문제_Solution$Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.inflearn.dfs.최대점수구하기.ReadMe.*" />
+          <option name="PATTERN" value="algorithmTest.inflearn.dfs.동전교환.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="바둑이_승차_Solution$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.inflearn.dfs.바둑이_승차.바둑이_승차_Solution$Main" />
+    <configuration name="algorithmTest.baekjoon.연결요소의개수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.연결요소의개수.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.inflearn.dfs.바둑이_승차.*" />
+          <option name="PATTERN" value="algorithmTest.baekjoon.연결요소의개수.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +125,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="합이_같은_부분집합_Solution$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.inflearn.dfs.합이_같은_부분집합.합이_같은_부분집합_Solution$Main" />
+    <configuration name="algorithmTest.baekjoon.깊이우선탐색.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.깊이우선탐색.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.inflearn.dfs.합이_같은_부분집합.*" />
+          <option name="PATTERN" value="algorithmTest.baekjoon.깊이우선탐색.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.programmers.LV_2.타켓넘버.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.타켓넘버.Solution" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.programmers.LV_2.타켓넘버.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.programmers.LV_3.단어_변환.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_3.단어_변환.Solution" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.programmers.LV_3.단어_변환.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.최대점수구하기_Solution$Main" />
-        <item itemvalue="Application.바둑이_승차_Solution$Main" />
-        <item itemvalue="Application.합이_같은_부분집합_Solution$Main" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.DFS_Stack" />
+        <item itemvalue="Application.algorithmTest.baekjoon.깊이우선탐색.Main" />
+        <item itemvalue="Application.algorithmTest.baekjoon.연결요소의개수.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.algorithmTest.programmers.LV_3.단어_변환.Solution" />
+        <item itemvalue="Application.algorithmTest.programmers.LV_2.타켓넘버.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +196,40 @@
       <workItem from="1682441932603" duration="5000" />
       <workItem from="1682674833647" duration="61000" />
       <workItem from="1683014554158" duration="8513000" />
-      <workItem from="1683087134877" duration="11085000" />
+      <workItem from="1683087134877" duration="11308000" />
+      <workItem from="1683115566841" duration="12117000" />
+      <workItem from="1683209851112" duration="8030000" />
+      <workItem from="1683253465853" duration="12685000" />
+      <workItem from="1683275805208" duration="392000" />
+      <workItem from="1683288437064" duration="3528000" />
+      <workItem from="1684213618272" duration="4423000" />
+      <workItem from="1684219337078" duration="3000" />
+      <workItem from="1684219350387" duration="10753000" />
+      <workItem from="1684251724869" duration="993000" />
+      <workItem from="1684286559482" duration="6938000" />
+      <workItem from="1684402913035" duration="2398000" />
+      <workItem from="1684771026436" duration="1000" />
+      <workItem from="1684801704396" duration="77000" />
+      <workItem from="1684907521530" duration="397000" />
+      <workItem from="1684996044419" duration="3821000" />
+      <workItem from="1685267295861" duration="676000" />
+      <workItem from="1685320803353" duration="10340000" />
+      <workItem from="1685633772509" duration="29000" />
+      <workItem from="1686192254912" duration="959000" />
+      <workItem from="1686422565863" duration="1000" />
+      <workItem from="1687011465304" duration="514000" />
+      <workItem from="1687011983911" duration="4000" />
+      <workItem from="1687011993221" duration="6000" />
+      <workItem from="1688967343982" duration="2058000" />
+      <workItem from="1689042113597" duration="6308000" />
+      <workItem from="1689242135196" duration="598000" />
+      <workItem from="1689734163817" duration="2925000" />
+      <workItem from="1689822240247" duration="1122000" />
+      <workItem from="1689825485957" duration="2249000" />
+      <workItem from="1690010526897" duration="2626000" />
+      <workItem from="1690034223353" duration="3000" />
+      <workItem from="1691393075022" duration="4702000" />
+      <workItem from="1691734880807" duration="4662000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Heap 정렬">
       <created>1675495464502</created>
@@ -205,7 +273,98 @@
       <option name="project" value="LOCAL" />
       <updated>1683097742810</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add: 최대점수구하기">
+      <created>1683099732005</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683099732005</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add: dfs 문제 추가">
+      <created>1683209879180</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683209879180</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add: dfs 문제 추가">
+      <created>1683298761657</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683298761657</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add: dfs 문제 추가">
+      <created>1684227873056</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684227873056</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add: dfs 문제 추가">
+      <created>1684241542367</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684241542367</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add: dfs 문제 추가">
+      <created>1684295029548</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684295029548</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add: dfs 문제 추가">
+      <created>1684295040521</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684295040521</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add: dfs 문제 추가">
+      <created>1684801771752</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684801771752</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add: 프로그래머스 구현 문제 추가">
+      <created>1684907907188</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684907907188</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add: 프로그래머스 구현 문제 추가">
+      <created>1688996089269</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1688996089269</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add:Graph_dfs 예제 추가">
+      <created>1688996117357</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1688996117357</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add: 프로그래머스 문제 추가">
+      <created>1689087421865</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689087421865</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add: 프로그래머스 문제 추가">
+      <created>1689778523387</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778523387</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +387,36 @@
     <MESSAGE value="feat : stack" />
     <MESSAGE value="feat : Sort" />
     <MESSAGE value=":art: 알고리즘+알고리즘 풀이 통합" />
-    <option name="LAST_COMMIT_MESSAGE" value=":art: 알고리즘+알고리즘 풀이 통합" />
+    <MESSAGE value="Add: 최대점수구하기" />
+    <MESSAGE value="Add: dfs 문제 추가" />
+    <MESSAGE value="Add: 프로그래머스 구현 문제 추가" />
+    <MESSAGE value="Add:Graph_dfs 예제 추가" />
+    <MESSAGE value="Add: 프로그래머스 문제 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: 프로그래머스 문제 추가" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/inflearn/dfs/미로탐색/미로탐색_Solution_dfs.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/연결요소의개수/Main.java</url>
+          <line>11</line>
+          <properties class="algorithmTest.baekjoon.연결요소의개수.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithm$_Solution_Main.ic" NAME="동전문제_Solution$Main Coverage Results" MODIFIED="1683194741180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>algorithmTest.inflearn.dfs.동전교환.*</FILTER>
+    </SUITE>
   </component>
 </project>
