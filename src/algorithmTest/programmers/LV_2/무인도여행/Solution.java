@@ -35,7 +35,6 @@ class Solution {
         numberMaps = new int[y][x];
         answer = new ArrayList<>();
         visited = new boolean[y][x];
-        int start = 1;
 
         for(int i=0;i<y;i++){
             String[] xLength = maps[i].split("");
@@ -57,10 +56,6 @@ class Solution {
         for(int i=0;i<y;i++){
             for(int j = 0;j<x;j++){
                 if(!visited[i][j]){
-                    if(start == 1 && !visited[i][j]){
-                        start--;
-                        visited[i][j] = true;
-                    }
                     bfs(new Point(j,i));
                 }
             }
@@ -73,6 +68,7 @@ class Solution {
     public static  void bfs(Point point){
 
         int sum = numberMaps[point.y][point.x];
+        visited[point.y][point.x] = true;
         Queue<Point> q = new LinkedList<>();
         q.offer(point);
         while(!q.isEmpty()){
