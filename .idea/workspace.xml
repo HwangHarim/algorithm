@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="Add: 프로그래머스 문제 추가">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/땅따먹기/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/JadenCase문장열_만들기/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/최대_최솟값_구하기/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/기능개발/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/기능개발/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,26 +69,13 @@
       <recent name="$PROJECT_DIR$/src/explanation/graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.algorithmTest.programmers.LV_2.땅따먹기.Solution">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.반복이진법제조기.Solution" />
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.JadenCase문장열_만들기.Solution" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.programmers.LV_2.반복이진법제조기.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.programmers.LV_2.무인도여행.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.무인도여행.Solution" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.programmers.LV_2.무인도여행.*" />
+          <option name="PATTERN" value="algorithmTest.programmers.LV_2.JadenCase문장열_만들기.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,6 +122,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="algorithmTest.programmers.LV_2.최대_최솟값_구하기.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.최대_최솟값_구하기.Solution" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.programmers.LV_2.최대_최솟값_구하기.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithmTest.programmers.LV_2.n개의_최소공배수.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.n개의_최소공배수.Solution" />
       <module name="algorithm" />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.algorithmTest.programmers.LV_2.최대_최솟값_구하기.Solution" />
         <item itemvalue="Application.algorithmTest.programmers.LV_2.땅따먹기.Solution" />
         <item itemvalue="Application.algorithmTest.programmers.LV_2.n개의_최소공배수.Solution" />
         <item itemvalue="Application.algorithmTest.programmers.LV_2.숫자의_표현.Solution" />
-        <item itemvalue="Application.algorithmTest.programmers.LV_2.무인도여행.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +219,7 @@
       <workItem from="1691988016963" duration="2748000" />
       <workItem from="1692111155486" duration="2732000" />
       <workItem from="1692259102646" duration="2532000" />
-      <workItem from="1692444905159" duration="1465000" />
+      <workItem from="1692444905159" duration="12574000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Heap 정렬">
       <created>1675495464502</created>
@@ -396,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692197655458</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add: 프로그래머스 문제 추가">
+      <created>1692453983234</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1692453983234</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
