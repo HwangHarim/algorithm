@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="Add: 프로그래머스 문제 추가">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/dfs_bfs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/깊이우선탐색2/Main.java" afterDir="false" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="Add: 백준 dfs bfs 문제 추가">
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/촌수계산/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithmTest/baekjoon/.keep" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src/explanation/graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.algorithmTest.baekjoon.dfs_bfs.Main">
+  <component name="RunManager" selected="Application.algorithmTest.baekjoon.촌수계산.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.깊이우선탐색2.Main" />
       <module name="algorithm" />
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithmTest.baekjoon.dfs_bfs.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.dfs_bfs.Main" />
+    <configuration name="algorithmTest.baekjoon.촌수계산.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.촌수계산.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.dfs_bfs.*" />
+          <option name="PATTERN" value="algorithmTest.baekjoon.촌수계산.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithmTest.programmers.LV_2.땅따먹기.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.땅따먹기.Solution" />
+    <configuration name="algorithmTest.baekjoon.dfs_bfs.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.dfs_bfs.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.programmers.LV_2.땅따먹기.*" />
+          <option name="PATTERN" value="algorithmTest.baekjoon.dfs_bfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.algorithmTest.baekjoon.촌수계산.Main" />
         <item itemvalue="Application.algorithmTest.baekjoon.dfs_bfs.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.algorithmTest.programmers.LV_2.최대_최솟값_구하기.Solution" />
-        <item itemvalue="Application.algorithmTest.programmers.LV_2.땅따먹기.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +220,8 @@
       <workItem from="1692111155486" duration="2732000" />
       <workItem from="1692259102646" duration="2532000" />
       <workItem from="1692444905159" duration="12687000" />
-      <workItem from="1692585025578" duration="10901000" />
+      <workItem from="1692585025578" duration="11274000" />
+      <workItem from="1692772048231" duration="3890000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Heap 정렬">
       <created>1675495464502</created>
@@ -411,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692541850289</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add: 백준 dfs bfs 문제 추가">
+      <created>1692602671643</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1692602671644</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +448,8 @@
     <MESSAGE value="Add:Graph_dfs 예제 추가" />
     <MESSAGE value="Add: 백준 dfs 문제 추가" />
     <MESSAGE value="Add: 프로그래머스 문제 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: 프로그래머스 문제 추가" />
+    <MESSAGE value="Add: 백준 dfs bfs 문제 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: 백준 dfs bfs 문제 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -461,9 +470,44 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/dfs_bfs/Main.java</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/촌수계산/Main.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/촌수계산/Main.java</url>
+          <line>53</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/촌수계산/Main.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/촌수계산/Main.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/촌수계산/Main.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/촌수계산/Main.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/촌수계산/Main.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/촌수계산/Main.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/연결요소의개수/Main.java</url>
