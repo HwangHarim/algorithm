@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="Add: 백준 dfs 문제 추">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/트리의_부모_찾기/Main.java" afterDir="false" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="Add: 백준 dfs 추가">
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/유기농배추/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/침투/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,39 +69,39 @@
       <recent name="$PROJECT_DIR$/src/explanation/graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.algorithmTest.baekjoon.트리의_부모_찾기.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.깊이우선탐색2.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.깊이우선탐색2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.JadenCase문장열_만들기.Solution" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.programmers.LV_2.JadenCase문장열_만들기.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.algorithmTest.baekjoon.침투.Main">
     <configuration name="algorithmTest.baekjoon.촌수계산.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.촌수계산.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithmTest.baekjoon.촌수계산.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.유기농배추.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.유기농배추.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.유기농배추.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.침투.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.침투.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.침투.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.algorithmTest.baekjoon.침투.Main" />
+        <item itemvalue="Application.algorithmTest.baekjoon.유기농배추.Main" />
         <item itemvalue="Application.algorithmTest.baekjoon.트리의_부모_찾기.Main" />
         <item itemvalue="Application.algorithmTest.baekjoon.촌수계산.Main" />
         <item itemvalue="Application.algorithmTest.baekjoon.dfs_bfs.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +209,8 @@
       <workItem from="1692444905159" duration="12687000" />
       <workItem from="1692585025578" duration="11274000" />
       <workItem from="1692772048231" duration="4919000" />
-      <workItem from="1692777478509" duration="2702000" />
+      <workItem from="1692777478509" duration="3553000" />
+      <workItem from="1692945171391" duration="8620000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Heap 정렬">
       <created>1675495464502</created>
@@ -413,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692776494538</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Add: 백준 dfs 추가">
+      <created>1692792535073</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1692792535073</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +452,8 @@
     <MESSAGE value="Add: 프로그래머스 문제 추가" />
     <MESSAGE value="Add: 백준 dfs bfs 문제 추가" />
     <MESSAGE value="Add: 백준 dfs 문제 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: 백준 dfs 문제 추가" />
+    <MESSAGE value="Add: 백준 dfs 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: 백준 dfs 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -502,6 +512,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm$_Solution_Main.ic" NAME="동전문제_Solution$Main Coverage Results" MODIFIED="1683194741180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>algorithmTest.inflearn.dfs.동전교환.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/algorithm$algorithmTest_baekjoon__Main.ic" NAME="algorithmTest.baekjoon.침투.Main Coverage Results" MODIFIED="1692951451779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>algorithmTest.baekjoon.침투.*</FILTER>
     </SUITE>
   </component>
 </project>
