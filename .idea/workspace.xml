@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="Add: 백준 dfs 추가">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/더하기123/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/섬의개수/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/암호만들기/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/바닥장식/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/점프왕쪨리/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_3/디스크_컨트롤러/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_3/디스크_컨트롤러/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src/explanation/graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.algorithmTest.baekjoon.섬의개수.Main">
+  <component name="RunManager" selected="Application.algorithmTest.baekjoon.점프왕쪨리.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.더하기123.Main" />
       <module name="algorithm" />
@@ -90,6 +90,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithmTest.baekjoon.암호만들기.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.점프왕쪨리.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.점프왕쪨리.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.점프왕쪨리.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.바닥장식.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.바닥장식.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.바닥장식.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +164,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.algorithmTest.baekjoon.섬의개수.Main" />
+        <item itemvalue="Application.algorithmTest.baekjoon.점프왕쪨리.Main" />
         <item itemvalue="Application.algorithmTest.baekjoon.암호만들기.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.algorithmTest.baekjoon.침투.Main" />
-        <item itemvalue="Application.algorithmTest.baekjoon.유기농배추.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +235,12 @@
       <workItem from="1692585025578" duration="11274000" />
       <workItem from="1692772048231" duration="4919000" />
       <workItem from="1692777478509" duration="3553000" />
-      <workItem from="1692945171391" duration="20498000" />
+      <workItem from="1692945171391" duration="21127000" />
+      <workItem from="1693054054094" duration="98000" />
+      <workItem from="1693146707571" duration="619000" />
+      <workItem from="1693193024414" duration="3853000" />
+      <workItem from="1693198905511" duration="171000" />
+      <workItem from="1693199736536" duration="2213000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Heap 정렬">
       <created>1675495464502</created>
@@ -430,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692966238520</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Add: 백준 dfs 추가">
+      <created>1693053121642</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1693053121642</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,26 +532,6 @@
           <line>52</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/섬의개수/Main.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/섬의개수/Main.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/섬의개수/Main.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/섬의개수/Main.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/연결요소의개수/Main.java</url>
           <line>11</line>
@@ -533,6 +549,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/점프왕쪨리/Main.java</url>
+          <line>14</line>
+          <properties class="algorithmTest.baekjoon.점프왕쪨리.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
