@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="Add: 백준 dfs 추가">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/짝지어제거하기/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/짝지어제거하기/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/쵯솟값만들기/Solution.java" afterDir="false" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="Add: 프로그래머스 문제 추가">
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/explanation/백트래킹/BackTracking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src/explanation/graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.algorithmTest.programmers.LV_2.소수찾기2.Solution">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.더하기123.Main" />
       <module name="algorithm" />
@@ -175,8 +174,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="algorithmTest.programmers.LV_2.소수찾기2.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.소수찾기2.Solution" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.programmers.LV_2.소수찾기2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.algorithmTest.programmers.LV_2.소수찾기2.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.algorithmTest.baekjoon.암호만들기.Main" />
         <item itemvalue="Application.Main" />
@@ -254,7 +267,8 @@
       <workItem from="1693193024414" duration="3853000" />
       <workItem from="1693198905511" duration="171000" />
       <workItem from="1693199736536" duration="2339000" />
-      <workItem from="1693275922941" duration="4725000" />
+      <workItem from="1693275922941" duration="5413000" />
+      <workItem from="1693463603832" duration="4902000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Heap 정렬">
       <created>1675495464502</created>
@@ -487,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693202075975</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Add: 프로그래머스 문제 추가">
+      <created>1693285374179</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1693285374179</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,11 +535,11 @@
     <MESSAGE value="Add: dfs 문제 추가" />
     <MESSAGE value="Add: 프로그래머스 구현 문제 추가" />
     <MESSAGE value="Add:Graph_dfs 예제 추가" />
-    <MESSAGE value="Add: 프로그래머스 문제 추가" />
     <MESSAGE value="Add: 백준 dfs bfs 문제 추가" />
     <MESSAGE value="Add: 백준 dfs 문제 추가" />
     <MESSAGE value="Add: 백준 dfs 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: 백준 dfs 추가" />
+    <MESSAGE value="Add: 프로그래머스 문제 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: 프로그래머스 문제 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -552,6 +573,61 @@
           <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/촌수계산/Main.java</url>
           <line>52</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/연결요소의개수/Main.java</url>
