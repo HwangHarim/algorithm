@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="Add: 프로그래머스 문제 추가">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/N과M_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/N과M_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/N과M_3/Main.java" afterDir="false" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="Add: 백트래킹 문제 추가">
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/N과M_4/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/explanation/백트래킹/BackTracking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithmTest/baekjoon/점프왕쪨리/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/점프왕쪨리/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/소수찾기2/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/explanation/sort/StraightSelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/sort/StraightSelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,26 +70,13 @@
       <recent name="$PROJECT_DIR$/src/explanation/graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.algorithmTest.baekjoon.N과M_4.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.N과M_3.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithmTest.baekjoon.N과M_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.짝지어제거하기.Solution" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.programmers.LV_2.짝지어제거하기.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,6 +103,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithmTest.baekjoon.N과M_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.N과M_4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.N과M_4.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.N과M_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.algorithmTest.baekjoon.N과M_4.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.algorithmTest.baekjoon.N과M_2.Main" />
         <item itemvalue="Application.algorithmTest.baekjoon.N과M_1.Main" />
         <item itemvalue="Application.algorithmTest.programmers.LV_2.소수찾기2.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +286,7 @@
       <workItem from="1693463603832" duration="6563000" />
       <workItem from="1693533095034" duration="4275000" />
       <workItem from="1693547529514" duration="763000" />
-      <workItem from="1693549283309" duration="7404000" />
+      <workItem from="1693549283309" duration="10594000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Heap 정렬">
       <created>1675495464502</created>
@@ -538,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693491476741</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Add: 백트래킹 문제 추가">
+      <created>1693568539183</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1693568539183</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +571,8 @@
     <MESSAGE value="Add: 백준 dfs 문제 추가" />
     <MESSAGE value="Add: 백준 dfs 추가" />
     <MESSAGE value="Add: 프로그래머스 문제 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: 프로그래머스 문제 추가" />
+    <MESSAGE value="Add: 백트래킹 문제 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: 백트래킹 문제 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
