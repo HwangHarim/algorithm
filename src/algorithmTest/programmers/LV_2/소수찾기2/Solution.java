@@ -1,60 +1,53 @@
 package algorithmTest.programmers.LV_2.소수찾기2;
 
 
+import java.util.ArrayList;
+
 class Solution {
-    static int answer=0;
-    static String[] init;
-    static boolean[] visited;
-    static String result="";
+    static ArrayList<Integer> arr = new ArrayList<>();
+    static boolean[] check = new boolean[7];
 
-    public static void main(String[] args) {
-        System.out.println(solution("17"));
-    }
+    public int solution(String numbers) {
+        int answer = 0;
+        for(int i=0; i<numbers.length(); i++){
+            dfs(numbers,"",i+1);
+        }
 
-    public static int solution(String numbers) {
-
-        init = numbers.split("");
-        visited = new boolean[init.length];
-        for(int i=1;i<=numbers.length();i++){
-            dfs(i);
+        for (Integer integer : arr) {
+            if (prime(integer))
+                answer++;
         }
 
         return answer;
     }
-
-    public static void dfs(int size){
-
-        if(result.length() == size){
-            if(check(result)){
-                answer++;
-            }
-            result="";
-            return;
-        }
-        if(size<result.length()){
-            result="";
-            return;
-        }
-
-        for(int i=0;i<init.length;i++){
-            if(1<size&&result.length() == 0 && init[i].equals("0")){
-                    continue;
-            }
-            if(!visited[i]){
-                visited[i] = true;
-                result = result + init[i];
-                dfs(size);
-                visited[i] = false;
+    //백트래킹
+    static void dfs(String str, String temp, int m) {
+        if(temp.length() == m){
+            int num = Integer.parseInt(temp);
+            if(!arr.contains(num)){
+                arr.add(num);
             }
         }
+
+        for(int i=0; i<str.length(); i++){ 
+            if(!check[i]){
+                check[i] = true;
+                temp += str.charAt(i);
+                dfs(str, temp, m);
+                check[i] = false;
+                temp = temp.substring(0, temp.length()-1);
+            }
+        }
+
     }
+    //소수 판단
+    static boolean prime(int n) {
+        if(n<2) return false;
 
-    public static boolean check(String result){
-        int number = Integer.parseInt(result);
-
-        if(number<2){
-            return false;
+        for(int i=2; i*i<=n; i++) {
+            if(n % i == 0) return false;
         }
-        return ((number % 2) != 0) && ((number % 3) != 0);
+
+        return true;
     }
 }

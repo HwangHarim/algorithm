@@ -1,6 +1,5 @@
 package algorithmTest.baekjoon.점프왕쪨리;
 
-import java.util.*;
 import java.io.*;
 
 public class Main {

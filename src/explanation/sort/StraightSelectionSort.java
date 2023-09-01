@@ -11,7 +11,7 @@ public class StraightSelectionSort {
         for(int i =0; i<lenght;i++){
             for(int j=i+1; j<lenght; j++){
                 if(arr[j]<arr[i]){
-                    swap(arr,i,j);
+                    swap(arr,i ,j);
                 }
             }
         }
