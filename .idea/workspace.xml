@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="Add: 백트래킹 문제 추가">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/N과M_4/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/explanation/백트래킹/BackTracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +284,7 @@
       <workItem from="1693463603832" duration="6563000" />
       <workItem from="1693533095034" duration="4275000" />
       <workItem from="1693547529514" duration="763000" />
-      <workItem from="1693549283309" duration="10594000" />
+      <workItem from="1693549283309" duration="10611000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Heap 정렬">
       <created>1675495464502</created>
@@ -540,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693568539183</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add: 백트래킹 문제 추가">
+      <created>1693572952860</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1693572952860</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
