@@ -55,7 +55,7 @@ class Main{
                 if(!visited[ny][nx]){
                     if(count==2){
                         visited[ny][nx] = true;
-                        dfs(, ly, count+1, sum + map[ny][nx]);
+                        dfs(lx, ly, count+1, sum + map[ny][nx]);
                         visited[ny][nx] = false;
                     }
                     visited[ny][nx] = true;
