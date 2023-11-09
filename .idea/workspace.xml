@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : 브루트 포스 문제 풀이">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/다음순열/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/수_이어_쓰기_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/카잉달력/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/d/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithmTest/baekjoon/테트로미노/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/테트로미노/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +73,26 @@
       <recent name="$PROJECT_DIR$/src/explanation/graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.algorithmTest.baekjoon.수_이어_쓰기_1.Main">
+  <component name="RunManager" selected="Application.algorithmTest.programmers.Solution">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.리모콘.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithmTest.baekjoon.리모콘.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.d.Solution" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.programmers.LV_2.d.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +113,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithmTest.baekjoon.동물원.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.동물원.Main" />
+    <configuration name="algorithmTest.baekjoon.섬의개수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.섬의개수.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.동물원.*" />
+          <option name="PATTERN" value="algorithmTest.baekjoon.섬의개수.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.오르막수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.오르막수.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.오르막수.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.오큰수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.오큰수.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.오큰수.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithmTest.baekjoon.오큰수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.오큰수.Main" />
+    <configuration name="algorithmTest.baekjoon.침투.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.침투.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.오큰수.*" />
+          <option name="PATTERN" value="algorithmTest.baekjoon.침투.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,12 +347,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithmTest.baekjoon.침투.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.침투.Main" />
+    <configuration name="algorithmTest.baekjoon.알파벳찾기.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.알파벳찾기.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.침투.*" />
+          <option name="PATTERN" value="algorithmTest.baekjoon.알파벳찾기.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,12 +360,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithmTest.baekjoon.알파벳찾기.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.알파벳찾기.Main" />
+    <configuration name="algorithmTest.baekjoon.동물원.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.동물원.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.알파벳찾기.*" />
+          <option name="PATTERN" value="algorithmTest.baekjoon.동물원.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -401,32 +438,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithmTest.baekjoon.섬의개수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.섬의개수.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.섬의개수.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.오르막수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.오르막수.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.오르막수.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="algorithmTest.baekjoon.수_이어_쓰기_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.수_이어_쓰기_1.Main" />
       <module name="algorithm" />
@@ -440,12 +451,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithmTest.programmers.LV_1.모의고사_문제.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_1.모의고사_문제.Solution" />
+    <configuration name="algorithmTest.programmers.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.Solution" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.programmers.LV_1.모의고사_문제.*" />
+          <option name="PATTERN" value="algorithmTest.programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,10 +466,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.algorithmTest.programmers.Solution" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.algorithmTest.baekjoon.수_이어_쓰기_1.Main" />
         <item itemvalue="Application.algorithmTest.baekjoon.테트로미노.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.algorithmTest.programmers.LV_1.모의고사_문제.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -602,13 +614,9 @@
       <workItem from="1698127882179" duration="7172000" />
       <workItem from="1698286461954" duration="3868000" />
       <workItem from="1698414952572" duration="7000" />
-    </task>
-    <task id="LOCAL-00019" summary="Add: 프로그래머스 문제 추가">
-      <created>1689778523387</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1689778523387</updated>
+      <workItem from="1698504742533" duration="21000" />
+      <workItem from="1699247620324" duration="2431000" />
+      <workItem from="1699444763870" duration="843000" />
     </task>
     <task id="LOCAL-00020" summary="Add: 백준 dfs 문제 추가">
       <created>1691850869632</created>
@@ -946,7 +954,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697725314453</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="add : 브루트 포스 문제 풀이">
+      <created>1698504757739</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1698504757740</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1333,6 +1348,11 @@
           <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/수_이어_쓰기_1/Main.java</url>
           <line>16</line>
           <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/Solution.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="295" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/연결요소의개수/Main.java</url>
