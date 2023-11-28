@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : dfs 문제">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/Queens/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/호텔_대기/Solution.java" afterDir="false" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : 프로그래머스 문제 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/피로도/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/피로도/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/호텔_대기/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/호텔_대기/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -597,14 +595,7 @@
       <workItem from="1700950919638" duration="8511000" />
       <workItem from="1701042085599" duration="1545000" />
       <workItem from="1701148636355" duration="3345000" />
-      <workItem from="1701179371461" duration="3062000" />
-    </task>
-    <task id="LOCAL-00029" summary="Add: 백준 dfs 문제 추가">
-      <created>1692776494538</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1692776494538</updated>
+      <workItem from="1701179371461" duration="4079000" />
     </task>
     <task id="LOCAL-00030" summary="Add: 백준 dfs 추가">
       <created>1692792535073</created>
@@ -942,7 +933,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700979097837</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="add : 프로그래머스 문제 추가">
+      <created>1701183357207</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1701183357207</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -982,7 +980,8 @@
     <MESSAGE value="add : 브루트 포스 문제 풀이" />
     <MESSAGE value="add : 큐 스택 문제 추가" />
     <MESSAGE value="add : dfs 문제" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : dfs 문제" />
+    <MESSAGE value="add : 프로그래머스 문제 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : 프로그래머스 문제 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1422,21 +1421,6 @@
           <line>27</line>
           <option name="timeStamp" value="386" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/호텔_대기/Solution.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="387" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/호텔_대기/Solution.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="389" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/호텔_대기/Solution.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="390" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithmTest/baekjoon/연결요소의개수/Main.java</url>
           <line>11</line>
@@ -1488,6 +1472,11 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="algorithmTest.programmers.LV_2.호텔_대기.Solution$Time" memberName="start" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm$Main.ic" NAME="Main Coverage Results" MODIFIED="1697590636608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

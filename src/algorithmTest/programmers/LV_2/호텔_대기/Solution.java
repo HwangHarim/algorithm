@@ -4,7 +4,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 class Solution {
-    static int answer =0;
 
     public static void main(String[] args) {
         String[][] a = {{"15:00", "17:00"}, {"16:40", "18:20"}, {"14:20", "15:20"}, {"14:10", "19:20"}, {"18:20", "21:20"}};
@@ -19,35 +18,39 @@ class Solution {
     }
 
     public static int solution(String[][] book_time) {
-        List<Time> timeList = new ArrayList<>();
+        List<algorithmTest.programmers.LV_2.호텔_대기.Solution.Time> timeList = new ArrayList<>();
 
         for(String[] roomRead : book_time){
             String[] startTime  = roomRead[0].split(":");
             int start  = Integer.parseInt(startTime[0])*60 + Integer.parseInt(startTime[1]);
             String[] endTime  = roomRead[1].split(":");
             int end  = Integer.parseInt(endTime[0])*60+Integer.parseInt(endTime[1])+10;
-            timeList.add(new Time(start, end));
+            timeList.add(new algorithmTest.programmers.LV_2.호텔_대기.Solution.Time(start, end));
         }
 
-       timeList = timeList.stream().sorted(
+        timeList = timeList.stream().sorted(
             Comparator.comparingInt(time -> time.start)
         ).collect(Collectors.toList());
 
-        Stack<Integer> stack = new Stack<>();
+        PriorityQueue<Integer> rooms = new PriorityQueue<>();
 
-        for(int i =0; i<timeList.size(); i++){
-            int startTime = timeList.get(i).start;
-            int endTime = timeList.get(i).end;
-
-            while(!stack.isEmpty() && timeList.get(stack.peek()).end <= startTime ){
-                answer = Math.max(answer, stack.size());
-                stack.pop();
+        for(algorithmTest.programmers.LV_2.호텔_대기.Solution.Time now : timeList){
+            if(rooms.size() ==0){
+                rooms.add(now.end);
+                continue;
             }
-            stack.push(i);
+
+            int earliestEmptyRoom = rooms.peek();
+
+            if(now.start >= earliestEmptyRoom){
+                rooms.poll();
+                rooms.add(now.end);
+            }else {
+                rooms.add(now.end);
+            }
         }
 
 
-
-        return answer;
+        return rooms.size();
     }
 }
