@@ -1,4 +1,4 @@
-package algorithmTest.programmers.LV_2.택배상자;
+package algorithmTest.programmers.LV_2.혼자서_하는_틱택톡;
 
 import java.util.*;
 class Solution {
