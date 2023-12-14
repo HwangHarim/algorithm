@@ -26,6 +26,10 @@ class Solution {
             }
         }
 
+        if(countList.size()==1){
+            return 0;
+        }
+
         countList.sort(Collections.reverseOrder());
 
         return countList.get(0)*countList.get(1);
