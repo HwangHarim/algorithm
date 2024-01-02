@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : 프로그래머스 문제 추가">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/그래프ABCDE/Main.java" afterDir="false" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add :그래프 문제 추가">
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/미로탐색/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
       <recent name="$PROJECT_DIR$/src/explanation/graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.algorithmTest.baekjoon.미로탐색.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.그래프ABCDE.Main" />
       <module name="algorithm" />
@@ -93,6 +93,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithmTest.programmers.LV_2.혼자_놀기의_달인.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.미로탐색.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.미로탐색.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.미로탐색.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,19 +373,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithmTest.programmers.LV_2.테이블_해시_함수.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.테이블_해시_함수.Solution" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.programmers.LV_2.테이블_해시_함수.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="algorithmTest.programmers.LV_2.n제곱2_배열_자르기.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.programmers.LV_2.n제곱2_배열_자르기.Solution" />
       <module name="algorithm" />
@@ -388,11 +388,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.algorithmTest.baekjoon.미로탐색.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.algorithmTest.programmers.LV_2.마법의_엘리베이터.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.algorithmTest.programmers.LV_2.n제곱2_배열_자르기.Solution" />
-        <item itemvalue="Application.algorithmTest.programmers.LV_2.테이블_해시_함수.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -574,14 +574,7 @@
       <workItem from="1702876275733" duration="4439000" />
       <workItem from="1703592687314" duration="724000" />
       <workItem from="1704122784831" duration="3000" />
-      <workItem from="1704173234660" duration="1852000" />
-    </task>
-    <task id="LOCAL-00042" summary="Add: 백준 기초 문제 추가">
-      <created>1694592059840</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1694592059840</updated>
+      <workItem from="1704173234660" duration="5297000" />
     </task>
     <task id="LOCAL-00043" summary="Add: 백준 기초 문제 추가">
       <created>1694699478617</created>
@@ -919,7 +912,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703592811269</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="add :그래프 문제 추가">
+      <created>1704175520335</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1704175520336</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -960,7 +960,8 @@
     <MESSAGE value="add : 큐 스택 문제 추가" />
     <MESSAGE value="add : dfs 문제" />
     <MESSAGE value="add : 프로그래머스 문제 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : 프로그래머스 문제 추가" />
+    <MESSAGE value="add :그래프 문제 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="add :그래프 문제 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
