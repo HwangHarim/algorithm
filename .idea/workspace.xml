@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add :그래프 문제 추가">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/미로탐색/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_1/체육복/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/harimhwang/Desktop/algorithm/src/algorithmTest/programmers/LV_2/요격시스템&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/harimhwang/Desktop/algorithm&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -113,12 +113,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="algorithmTest.baekjoon.다음순열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.다음순열.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.다음순열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.오르막수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.오르막수.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.오르막수.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithmTest.baekjoon.문자열분석.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.문자열분석.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithmTest.baekjoon.문자열분석.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.사탕게임.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.사탕게임.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.사탕게임.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithmTest.baekjoon.섬의개수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.섬의개수.Main" />
+    <configuration name="algorithmTest.baekjoon.알파벳개수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.알파벳개수.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.섬의개수.*" />
+          <option name="PATTERN" value="algorithmTest.baekjoon.알파벳개수.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithmTest.baekjoon.알파벳개수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.알파벳개수.Main" />
+    <configuration name="algorithmTest.baekjoon.섬의개수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.섬의개수.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.알파벳개수.*" />
+          <option name="PATTERN" value="algorithmTest.baekjoon.섬의개수.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,45 +353,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithmTest.baekjoon.후위식.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.다음순열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.다음순열.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.다음순열.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.오르막수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.오르막수.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.오르막수.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.사탕게임.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.사탕게임.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.사탕게임.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -574,14 +574,9 @@
       <workItem from="1702876275733" duration="4439000" />
       <workItem from="1703592687314" duration="724000" />
       <workItem from="1704122784831" duration="3000" />
-      <workItem from="1704173234660" duration="5297000" />
-    </task>
-    <task id="LOCAL-00043" summary="Add: 백준 기초 문제 추가">
-      <created>1694699478617</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1694699478617</updated>
+      <workItem from="1704173234660" duration="5774000" />
+      <workItem from="1704257068891" duration="3000" />
+      <workItem from="1704264105250" duration="1222000" />
     </task>
     <task id="LOCAL-00044" summary="Add: 백준 기초 문제 추가">
       <created>1694759490587</created>
@@ -919,7 +914,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704175520336</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="add :그래프 문제 추가">
+      <created>1704179266705</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1704179266705</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
