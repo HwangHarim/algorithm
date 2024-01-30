@@ -7,7 +7,6 @@ class Solution
     public int solution(int []A, int[] B)
     {
         int answer = 0;
-
         Arrays.sort(A);
         Integer[] Barr =  Arrays.stream(B).boxed().toArray(Integer[]::new);
         Arrays.sort(Barr, Collections.reverseOrder());
