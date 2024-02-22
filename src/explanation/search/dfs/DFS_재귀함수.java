@@ -10,7 +10,7 @@ public class DFS_재귀함수 {
     static int[][] map;
     static boolean[] visit;
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
         vertex = sc.nextInt(); //정점의 수
         edge = sc.nextInt(); //간선의 수
         map = new int[vertex+1][vertex+1];//정점간의 연결의 정보를 담는 객체
