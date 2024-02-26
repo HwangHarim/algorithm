@@ -32,7 +32,7 @@ class Solution {
         for(int i =0; i<n; i++){
             parent[i] = i;
         }
-        Arrays.sort(costs, (o1,o2) -> o1[2] - o2[2]);
+        Arrays.sort(costs, Comparator.comparingInt(o -> o[2]));
 
         for(int i =0; i<costs.length; i++){
             if(find(parent, costs[i][0]) != find(parent, costs[i][1])){
