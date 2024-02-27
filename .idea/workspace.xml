@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : 프로그래머스 lv3 union-find(그리드 탐색)">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_2/할인행사/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_3/섬_연결/Soltuion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_3/섬_연결/Soltuion.java" afterDir="false" />
-    </list>
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : 프로그래머스 lv3 union-find(그리드 탐색)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -647,6 +644,7 @@
       <workItem from="1708064540735" duration="1554000" />
       <workItem from="1708345567878" duration="212000" />
       <workItem from="1708586287793" duration="474000" />
+      <workItem from="1708931731728" duration="347000" />
     </task>
     <task id="LOCAL-00058" summary="add : 스텍 문제 업로드">
       <created>1696343340437</created>
@@ -991,7 +989,7 @@
       <option name="project" value="LOCAL" />
       <updated>1707980669045</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
