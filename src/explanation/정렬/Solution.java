@@ -46,6 +46,8 @@ public class Solution {
         list2.add(sublist4);
         list2.add(sublist5);
 
+
+        // 배열을 정렬할 때 일단 람다식을 이용하기 이용하면서 필요한 조건을 구현하기
         Collections.sort(list2, (o1, o2) -> {
             int i = 0;
             while (i < o1.size() && i < o2.size()) {
