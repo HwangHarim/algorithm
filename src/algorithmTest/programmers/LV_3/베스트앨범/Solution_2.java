@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Solution {
+class Solution_2 {
     static class SongInfo{
         int index;
         int playCount;
