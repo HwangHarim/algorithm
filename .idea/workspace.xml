@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : leetCode_dfs">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/dfs/네트워크딜레이/Solution.java" afterDir="false" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : leetCode_bfs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -657,6 +656,7 @@
       <workItem from="1718608664905" duration="2116000" />
       <workItem from="1718695216369" duration="661000" />
       <workItem from="1718950848029" duration="2922000" />
+      <workItem from="1718985256258" duration="2645000" />
     </task>
     <task id="LOCAL-00058" summary="add : 스텍 문제 업로드">
       <created>1696343340437</created>
@@ -1001,7 +1001,7 @@
       <option name="project" value="LOCAL" />
       <updated>1707980669045</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1019,7 +1019,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add: 프로그래머스 구현 문제 추가" />
     <MESSAGE value="Add:Graph_dfs 예제 추가" />
     <MESSAGE value="Add: 백준 dfs bfs 문제 추가" />
     <MESSAGE value="Add: 백준 dfs 문제 추가" />
@@ -1044,7 +1043,8 @@
     <MESSAGE value="add : 베스트앨범(Hash) 3" />
     <MESSAGE value="add : leetCode" />
     <MESSAGE value="add : leetCode_dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : leetCode_dfs" />
+    <MESSAGE value="add : leetCode_bfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : leetCode_bfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
