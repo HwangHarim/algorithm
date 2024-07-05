@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : softeer lv.3 dfs">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/softeer/금고털이/Main.java" afterDir="false" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : softeer lv.2 금고털이">
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/MaximumDepthOfBinaryTree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/display_of_binary_tree_543/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/invert_binary_tree_226/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/longest_univalue_patch_687/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/merge_two_binary_trees_617/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/serialize_and_deserialize_tree_297/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,58 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithmTest.baekjoon.다음순열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.다음순열.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.다음순열.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.문자열분석.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.문자열분석.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.문자열분석.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.다음순열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.다음순열.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.다음순열.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.가장긴증가하는부분수열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.가장긴증가하는부분수열.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.가장긴증가하는부분수열.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="algorithmTest.baekjoon.동물원.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.동물원.Main" />
       <module name="algorithm" />
@@ -288,6 +242,58 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithmTest.baekjoon.요세푸스문제.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.다음순열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.다음순열.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.다음순열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.문자열분석.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.문자열분석.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.문자열분석.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.다음순열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.다음순열.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.다음순열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.가장긴증가하는부분수열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.가장긴증가하는부분수열.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.가장긴증가하는부분수열.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -652,6 +658,11 @@
       <workItem from="1719382534257" duration="2421000" />
       <workItem from="1719387331469" duration="1646000" />
       <workItem from="1719578323794" duration="5383000" />
+      <workItem from="1719587286443" duration="19000" />
+      <workItem from="1719986466507" duration="2730000" />
+      <workItem from="1720067940660" duration="2842000" />
+      <workItem from="1720094301157" duration="2122000" />
+      <workItem from="1720162257902" duration="641000" />
     </task>
     <task id="LOCAL-00058" summary="add : 스텍 문제 업로드">
       <created>1696343340437</created>
@@ -996,7 +1007,7 @@
       <option name="project" value="LOCAL" />
       <updated>1707980669045</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1014,7 +1025,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add: 백준 dfs 추가" />
     <MESSAGE value="Add: 프로그래머스 문제 추가" />
     <MESSAGE value="Add: 백트래킹 문제 추가" />
     <MESSAGE value="Add: 백준 기초 문제 추가" />
@@ -1039,7 +1049,8 @@
     <MESSAGE value="add : leetCode_bfs_최소값 구하기" />
     <MESSAGE value="add : softeer lv.2" />
     <MESSAGE value="add : softeer lv.3 dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : softeer lv.3 dfs" />
+    <MESSAGE value="add : softeer lv.2 금고털이" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : softeer lv.2 금고털이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
