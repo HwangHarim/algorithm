@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : softeer lv.2 금고털이">
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/MaximumDepthOfBinaryTree/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/display_of_binary_tree_543/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/invert_binary_tree_226/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/longest_univalue_patch_687/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/merge_two_binary_trees_617/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmTest/leetCode/tree/serialize_and_deserialize_tree_297/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : leetcode tree solution" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -662,7 +653,7 @@
       <workItem from="1719986466507" duration="2730000" />
       <workItem from="1720067940660" duration="2842000" />
       <workItem from="1720094301157" duration="2122000" />
-      <workItem from="1720162257902" duration="641000" />
+      <workItem from="1720162257902" duration="969000" />
     </task>
     <task id="LOCAL-00058" summary="add : 스텍 문제 업로드">
       <created>1696343340437</created>
@@ -1007,7 +998,7 @@
       <option name="project" value="LOCAL" />
       <updated>1707980669045</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1025,7 +1016,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add: 프로그래머스 문제 추가" />
     <MESSAGE value="Add: 백트래킹 문제 추가" />
     <MESSAGE value="Add: 백준 기초 문제 추가" />
     <MESSAGE value=":memo: 문서 업데이트" />
@@ -1050,7 +1040,8 @@
     <MESSAGE value="add : softeer lv.2" />
     <MESSAGE value="add : softeer lv.3 dfs" />
     <MESSAGE value="add : softeer lv.2 금고털이" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : softeer lv.2 금고털이" />
+    <MESSAGE value="add : leetcode tree solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : leetcode tree solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
