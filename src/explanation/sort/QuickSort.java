@@ -5,24 +5,30 @@ public class QuickSort {
     public static void main(String[] args) {
     }
 
-    public static void swap(int[] a, int idx1, int idx2){
-        int tmp = a[idx1];
-        a[idx1] = a[idx2];
-        a[idx2] = tmp;
-    }
-    public void quickSort(int[] a, int left,int right){
-        int pl =left;
-        int pr =right;
-        int x =a[(pl+pr)/2];
+    /**
+     * 퀵 정렬은 안전한 정렬 알고리즘이 아니다.
+     * 회선의 경우 O(nlog) 이지만 최악의 경우 O(n*n)이된다.(이미 정렬인된 배열일 경우)
+     *
+     * @param a
+     * @param lo
+     * @param hi
+     * @return
+     */
+    public int quickSort(int[] a, int lo, int hi) {
+        int pivot = a[hi];
+        int left = lo;
 
-        do{
-            while (a[pl] < x) pl++;
-            while (a[pr]>x) pr--;
-            if(pl<=pr){
-                swap(a,pl++,pr--);
+        for (int right = lo; right < hi; right++) {
+            if (a[right] <= pivot) {
+                int temp = a[left];
+                a[left] = a[right];
+                a[right] = temp;
+                left++;
             }
-        }while (pl<=pr);
-        if(left<pr) quickSort(a,left,pr);
-        if(right<pl) quickSort(a,pl,right);
+        }
+        int temp = a[left];
+        a[left] = a[hi];
+        a[hi] = temp;
+        return left;
     }
 }
