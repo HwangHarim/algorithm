@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : leetcode heap solution">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : 프로그래머스 lv.3 상담원 인원 풀이">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/explanation/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/explanation/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explanation/sort/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -676,6 +673,7 @@
       <workItem from="1722833403009" duration="3578000" />
       <workItem from="1722852815705" duration="1634000" />
       <workItem from="1722916678693" duration="2214000" />
+      <workItem from="1723042207515" duration="1537000" />
     </task>
     <task id="LOCAL-00058" summary="add : 스텍 문제 업로드">
       <created>1696343340437</created>
@@ -1020,7 +1018,7 @@
       <option name="project" value="LOCAL" />
       <updated>1707980669045</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1038,7 +1036,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add: 백준 기초 문제 추가" />
     <MESSAGE value=":memo: 문서 업데이트" />
     <MESSAGE value="add : 다이나믹프로그래밍 문제 추가" />
     <MESSAGE value="add : 스텍 문제 업로드" />
@@ -1063,7 +1060,8 @@
     <MESSAGE value="add : softeer lv.2 금고털이" />
     <MESSAGE value="add : leetcode tree solution" />
     <MESSAGE value="add : leetcode heap solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : leetcode heap solution" />
+    <MESSAGE value="add : 프로그래머스 lv.3 상담원 인원 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : 프로그래머스 lv.3 상담원 인원 풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
