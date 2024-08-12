@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : 프로그래머스 lv.3 연속수열 DP 풀이" />
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : 프로그래머스 lv.3 DP 풀이">
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_3/산모양_타일링/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_3/아이템줍기/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmTest/programmers/LV_3/아이템줍기/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,6 +151,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="algorithmTest.baekjoon.동물원.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.동물원.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.동물원.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.오르막수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.오르막수.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.오르막수.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.침투.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.침투.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.침투.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.가장긴감소하는부분수열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.가장긴감소하는부분수열.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.가장긴감소하는부분수열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithmTest.baekjoon.카잉달력.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.카잉달력.Main" />
       <module name="algorithm" />
@@ -244,58 +300,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithmTest.baekjoon.가장긴증가하는부분수열.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.동물원.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.동물원.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.동물원.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.오르막수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.오르막수.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.오르막수.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.침투.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.침투.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.침투.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.가장긴감소하는부분수열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.가장긴감소하는부분수열.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.가장긴감소하는부분수열.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -673,6 +677,7 @@
       <workItem from="1722916678693" duration="2214000" />
       <workItem from="1723042207515" duration="1537000" />
       <workItem from="1723127718741" duration="71000" />
+      <workItem from="1723421897276" duration="704000" />
     </task>
     <task id="LOCAL-00058" summary="add : 스텍 문제 업로드">
       <created>1696343340437</created>
@@ -1017,7 +1022,7 @@
       <option name="project" value="LOCAL" />
       <updated>1707980669045</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1035,7 +1040,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add : 다이나믹프로그래밍 문제 추가" />
     <MESSAGE value="add : 스텍 문제 업로드" />
     <MESSAGE value="add : 자료구조 문제 업로드" />
     <MESSAGE value="add : 브루트 포스 문제 풀이" />
@@ -1060,7 +1064,8 @@
     <MESSAGE value="add : leetcode heap solution" />
     <MESSAGE value="add : 프로그래머스 lv.3 상담원 인원 풀이" />
     <MESSAGE value="add : 프로그래머스 lv.3 연속수열 DP 풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : 프로그래머스 lv.3 연속수열 DP 풀이" />
+    <MESSAGE value="add : 프로그래머스 lv.3 DP 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : 프로그래머스 lv.3 DP 풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
