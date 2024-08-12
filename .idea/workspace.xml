@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : 프로그래머스 lv.3 상담원 인원 풀이">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : 프로그래머스 lv.3 연속수열 DP 풀이" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,6 +147,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="algorithmTest.baekjoon.카잉달력.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.카잉달력.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.카잉달력.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.알파벳개수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.알파벳개수.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.알파벳개수.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.가장긴바이토닉수열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.가장긴바이토닉수열.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.가장긴바이토닉수열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithmTest.baekjoon.요세푸스문제.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.요세푸스문제.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmTest.baekjoon.요세푸스문제.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithmTest.baekjoon.다음순열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.다음순열.Main" />
       <module name="algorithm" />
@@ -246,58 +296,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithmTest.baekjoon.가장긴감소하는부분수열.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.카잉달력.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.카잉달력.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.카잉달력.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.알파벳개수.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.알파벳개수.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.알파벳개수.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.가장긴바이토닉수열.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.가장긴바이토닉수열.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.가장긴바이토닉수열.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithmTest.baekjoon.요세푸스문제.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTest.baekjoon.요세푸스문제.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTest.baekjoon.요세푸스문제.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -674,6 +672,7 @@
       <workItem from="1722852815705" duration="1634000" />
       <workItem from="1722916678693" duration="2214000" />
       <workItem from="1723042207515" duration="1537000" />
+      <workItem from="1723127718741" duration="71000" />
     </task>
     <task id="LOCAL-00058" summary="add : 스텍 문제 업로드">
       <created>1696343340437</created>
@@ -1018,7 +1017,7 @@
       <option name="project" value="LOCAL" />
       <updated>1707980669045</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1036,7 +1035,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":memo: 문서 업데이트" />
     <MESSAGE value="add : 다이나믹프로그래밍 문제 추가" />
     <MESSAGE value="add : 스텍 문제 업로드" />
     <MESSAGE value="add : 자료구조 문제 업로드" />
@@ -1061,7 +1059,8 @@
     <MESSAGE value="add : leetcode tree solution" />
     <MESSAGE value="add : leetcode heap solution" />
     <MESSAGE value="add : 프로그래머스 lv.3 상담원 인원 풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : 프로그래머스 lv.3 상담원 인원 풀이" />
+    <MESSAGE value="add : 프로그래머스 lv.3 연속수열 DP 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : 프로그래머스 lv.3 연속수열 DP 풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
