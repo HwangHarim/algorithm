@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : 프로그래머스 lv.3 dp 문제 풀이">
+    <list default="true" id="07fbc44b-5ed6-45c1-a98e-869d5400bd65" name="Changes" comment="add : 프로그래머스 lv.3 dfs 문제 풀이">
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/종이자르기/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmTest/baekjoon/최소비용/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -676,6 +679,10 @@
       <workItem from="1723042207515" duration="1537000" />
       <workItem from="1723127718741" duration="71000" />
       <workItem from="1723421897276" duration="2742000" />
+      <workItem from="1724164943016" duration="85000" />
+      <workItem from="1724248478858" duration="1306000" />
+      <workItem from="1724283715111" duration="8000" />
+      <workItem from="1727038054836" duration="1920000" />
     </task>
     <task id="LOCAL-00058" summary="add : 스텍 문제 업로드">
       <created>1696343340437</created>
@@ -1020,7 +1027,7 @@
       <option name="project" value="LOCAL" />
       <updated>1707980669045</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1038,8 +1045,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add : 브루트 포스 문제 풀이" />
-    <MESSAGE value="add : 큐 스택 문제 추가" />
     <MESSAGE value="add : dfs 문제" />
     <MESSAGE value="add : 프로그래머스 문제 추가" />
     <MESSAGE value="add :그래프 문제 추가" />
@@ -1063,7 +1068,9 @@
     <MESSAGE value="add : 프로그래머스 lv.3 DP 풀이" />
     <MESSAGE value="add : 프로그래머스 lv.3 산모양 타일링" />
     <MESSAGE value="add : 프로그래머스 lv.3 dp 문제 풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : 프로그래머스 lv.3 dp 문제 풀이" />
+    <MESSAGE value="add : 프로그래머스 lv.3 bfs 문제 풀이" />
+    <MESSAGE value="add : 프로그래머스 lv.3 dfs 문제 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : 프로그래머스 lv.3 dfs 문제 풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
