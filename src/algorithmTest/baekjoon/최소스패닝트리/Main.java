@@ -11,9 +11,10 @@ import java.util.StringTokenizer;
 
 public class Main {
     static class Node implements Comparable<Node> {
-        static public int a, b, c;
+        public int a, b, c;
 
         public Node(int a, int b, int c) {
+            super();
             this.a = a;
             this.b = b;
             this.c = c;
